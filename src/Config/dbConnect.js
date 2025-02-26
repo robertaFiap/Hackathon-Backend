@@ -2,7 +2,7 @@ import "dotenv/config"
 import mongoose, {mongo} from "mongoose";
  
 
-const uri = "mongodb+srv://admin:123@cluster0.fkaxvcm.mongodb.net/Livraria?retryWrites=true&w=majority&appName=Cluster0"
+const uri = "mongodb+srv://admin:123@cluster0.fkaxvcm.mongodb.net/Anuncio?retryWrites=true&w=majority&appName=Cluster0"
 
 //console.log ("uri:" + uri);
 async function conectaNaDataBase () {
